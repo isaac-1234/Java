@@ -2,7 +2,7 @@ package com.mycompany.javaapplication0;
 
 import java.util.Scanner;
 
-public class WelcomeProgram {
+public class bienvenido {
     public static void main(String[] args) {
         // Create a Scanner object to read input
         Scanner scanner = new Scanner(System.in);
