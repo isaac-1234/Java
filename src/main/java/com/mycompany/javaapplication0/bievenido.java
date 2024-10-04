@@ -1,3 +1,5 @@
+package com.mycompany.javaapplication0;
+
 import java.util.Scanner;
 
 public class WelcomeProgram {
