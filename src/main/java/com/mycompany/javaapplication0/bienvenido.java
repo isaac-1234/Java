@@ -3,7 +3,7 @@ package com.mycompany.javaapplication0;
 import java.util.Scanner;
 
 public class bienvenido {
-    public static void main(String[] args) {
+    public static void nombre(String[] args) {
         // Create a Scanner object to read input
         Scanner scanner = new Scanner(System.in);
 
@@ -21,4 +21,5 @@ public class bienvenido {
         // Close the scanner
         scanner.close();
     }
+    
 }
