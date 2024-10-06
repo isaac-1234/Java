@@ -33,14 +33,15 @@ public class JavaApplication0 extends JFrame implements ActionListener {
 
         // Panel for buttons
         JPanel buttonPanel = new JPanel(); 
-        buttonPanel.setLayout(new GridLayout(4, 4, 10, 10));
+        buttonPanel.setLayout(new GridLayout(5, 4, 10, 10));
 
         // Button labels
         String[] buttonLabels = {
             "7", "8", "9", "/",
             "4", "5", "6", "*",
             "1", "2", "3", "-",
-            "0", ".", "=", "+"
+            "0", ".", "=", "+",
+            "C"
         };
 
         // Create buttons and add them to the panel
@@ -90,6 +91,10 @@ public class JavaApplication0 extends JFrame implements ActionListener {
             }
             inputField.setText(String.valueOf(result));
         }
+        else if (command.equals("C")){
+            inputField.setText("");
+        }
+            
     }
 
     public static void main(String[] args) {
